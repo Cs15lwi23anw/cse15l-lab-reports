@@ -45,6 +45,6 @@ Here is an example of the comand cd ~ being used:
   
   
   
-In the example, I went to another directory and use cd ~ to take me back to my home directory      
-good luck and have fun!
+In the example, I went to another directory and use cd ~ to take me back to my home directory.        
+Good luck and have fun!
 

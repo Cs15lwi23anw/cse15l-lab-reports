@@ -2,7 +2,7 @@
 **Install VScode**  
 You need to go to [link]( https://code.visualstudio.com/) to down load VScode    
 Follow the steps there, when finnished, your VScode should look like this:     
-
+![Image](cse15L1.png)
 
 **Remote acess**  
 To remote acess, you need to install git (for Windows) at [Link](https://gitforwindows.org/)   
@@ -18,7 +18,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 Enter yes and keep going.     
 When you are asked for a password, enter your password.    
 When done, your page should look something like this:      
-
+![Image](cse15L2.png)
 
 
 
@@ -34,10 +34,10 @@ Here are some comands you should consider running:
 *cat /home/linux/ieng6/cs15lwi23/public/hello.txt     
 
 Here ia an example of the comand cd ~ being used:       
-  
+![Image](cse15L3.png)
   
   
   
 In the example, I went to another directory and use cd ~ to take me back to my home directory      
 good luck and have fun!
-[Link](https://cs15lwi23anw.github.io/cse15l-lab-reports/more.md)
+

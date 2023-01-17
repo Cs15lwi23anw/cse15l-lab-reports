@@ -38,9 +38,9 @@ ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, wh
 cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/      
   
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt          
-  
+     
 
-Here ia an example of the comand cd ~ being used:       
+Here is an example of the comand cd ~ being used:       
 ![Image](cse15L3.png)
   
   

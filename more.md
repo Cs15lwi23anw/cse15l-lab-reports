@@ -25,19 +25,26 @@ When done, your page should look something like this:
 
 **Run some commands**     
 Here are some comands you should consider running:       
-*cd ~
-*cd
-*ls -lat
-*ls -a
-*ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username
-*cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
-*cat /home/linux/ieng6/cs15lwi23/public/hello.txt     
+cd ~      
 
-Here ia an example of the comand cd ~ being used:       
+cd      
+
+ls -lat      
+
+ls -a      
+
+ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username      
+  
+cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/      
+  
+cat /home/linux/ieng6/cs15lwi23/public/hello.txt          
+     
+
+Here is an example of the comand cd ~ being used:       
 ![Image](cse15L3.png)
   
   
   
-In the example, I went to another directory and use cd ~ to take me back to my home directory      
-good luck and have fun!
+In the example, I went to another directory and use cd ~ to take me back to my home directory.        
+Good luck and have fun!
 

@@ -1,7 +1,11 @@
 # How to remote acess?
 **Install VScode**  
 You need to go to [link]( https://code.visualstudio.com/) to down load VScode    
-Follow the steps there, when finnished, your VScode should look like this:     
+When there, the web page should look like this:           
+![Image](cse15_labReport1_2.png)     
+Click on the download button at the top right and select the version of VSCode that fits your operating system:
+![Image](cse15_labReport1_1.png)     
+Follow the promted steps! When finnished, your VScode should look like this:     
 ![Image](cse15L1.png)
 
 **Remote acess**  
@@ -39,12 +43,14 @@ cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
   
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt          
      
-
+You should run at least one of the comand on your VSCode and find out what it does.
 Here is an example of the comand cd ~ being used:       
 ![Image](cse15L3.png)
   
   
   
 In the example, I went to another directory and use cd ~ to take me back to my home directory.        
+Now it's your turn to give it a try. Run a comand and take notes on your process of firguring out what it does. Take screenschots to document your progress.
+              
 Good luck and have fun!
 

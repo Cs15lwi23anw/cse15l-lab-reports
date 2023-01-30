@@ -3,11 +3,14 @@
 You need to go to [link]( https://code.visualstudio.com/) to down load VScode    
 When there, the web page should look like this:           
 ![Image](cse15_labReport1_2.png)     
+                
 Click on the download button at the top right and select the version of VSCode that fits your operating system:
 ![Image](cse15_labReport1_1.png)     
+              
 Follow the promted steps! When finnished, your VScode should look like this:     
 ![Image](cse15L1.png)
 
+           
 **Remote acess**  
 To remote acess, you need to install git (for Windows) at [Link](https://gitforwindows.org/)   
 Then you need to open a terminal and enter the following comand with the zz replaced by the letters in your course-specific account.     
@@ -27,23 +30,19 @@ When done, your page should look something like this:
 
 
 
+              
 **Run some commands**     
 Here are some comands you should consider running:       
-cd ~      
-
-cd      
-
-ls -lat      
-
-ls -a      
-
-ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username      
-  
-cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/      
-  
-cat /home/linux/ieng6/cs15lwi23/public/hello.txt          
-     
-You should run at least one of the comand on your VSCode and find out what it does.
+* cd ~      
+* cd      
+* ls -lat      
+* ls -a      
+* ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc, where the abc is one of the other group members’ username      
+* cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/      
+* cat /home/linux/ieng6/cs15lwi23/public/hello.txt          
+           
+*You should run at least one of the comand on your VSCode and find out what it does.*         
+            
 Here is an example of the comand cd ~ being used:       
 ![Image](cse15L3.png)
   

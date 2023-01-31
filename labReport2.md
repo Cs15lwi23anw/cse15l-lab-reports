@@ -68,3 +68,5 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 ```
+                     
+* Briefly describe why the fix addresses the issue.           

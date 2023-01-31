@@ -47,6 +47,7 @@ The bug I chose is the reverse method. Instead of returning the given array in r
 ![Image](cse15L_labReport2_part1code.png)           
           
 * The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)           
+
 Before:          
 ```
 static int[] reversed(int[] arr) {

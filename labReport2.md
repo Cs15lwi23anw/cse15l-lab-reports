@@ -25,7 +25,6 @@ The String **message** is then displayed by **Server's start** method.
 ## Part 2       
 The bug I chose is the reverse method. Instead of returning the given array in reverse order, the reverse method returns an array of zero's in the size of the given array.             
 * A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)          
-![Image](cse15L_labReport2_part1code.png)  
 ```
 @Test
   public void testReversed2() {
@@ -36,10 +35,35 @@ The bug I chose is the reverse method. Instead of returning the given array in r
 ```
                 
 * An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)          
-![Image](cse15L_labReport2_part1code.png)  
+```
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+```
                    
 * The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)          
 ![Image](cse15L_labReport2_part1code.png)           
           
 * The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)           
-![Image](cse15L_labReport2_part1code.png)             
+Before:          
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+After:                 
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```

@@ -44,7 +44,7 @@ The bug I chose is the reverse method. Instead of returning the given array in r
 ```
                    
 * The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)          
-![Image](cse15L_labReport2_part1code.png)           
+![Image](cse15L_labReport2_part2example1.png)           
           
 * The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)           
 

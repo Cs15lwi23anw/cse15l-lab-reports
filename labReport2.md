@@ -26,6 +26,14 @@ The String **message** is then displayed by **Server's start** method.
 The bug I chose is the reverse method. Instead of returning the given array in reverse order, the reverse method returns an array of zero's in the size of the given array.             
 * A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)          
 ![Image](cse15L_labReport2_part1code.png)  
+```
+@Test
+  public void testReversed2() {
+    int[] input1 = {1, 2};
+    ArrayExamples.reversed(input1);
+    assertArrayEquals(new int[]{2, 1}, ArrayExamples.reversed(input1));
+  }
+```
                 
 * An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)          
 ![Image](cse15L_labReport2_part1code.png)  

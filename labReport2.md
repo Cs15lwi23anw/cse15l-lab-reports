@@ -70,3 +70,4 @@ static int[] reversed(int[] arr) {
 ```
                      
 * Briefly describe why the fix addresses the issue.           
+In the original code, the reverse method created an empty array with the size of the input array. It then copy the empty array in reverse order on to the array it plans to return, then return the array which has become empty. In the new code, I saved the input array in reverse order on to the newly created array and return an array with the data being reversed.

@@ -22,3 +22,9 @@ In the example, the path contains "/add-message" and its query has "s=hi" so it 
 The String **message** is then displayed by **Server's start** method.       
                          
                          
+## Part 2       
+The bug I chose is the reverse method. Instead of returning the given array in reverse order, the reverse method returns an array of zero's in the size of the given array.             
+* A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+* An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+* The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+* The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)

@@ -20,8 +20,9 @@ In the code block, I found every file with the name "ch1.txt" in the directory *
 /home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Rybczynski/ch2.txt
 ```
 In the code block, I found every file with the name "ch2.txt" in the directory **written_2**.                 
----
-
+                                         
+                                         ---
+                                         
 ## find /path -mtime 1                            
 I found all the information from this blog [Link](https://www.stackscale.com/blog/find-command-linux/)                  
 This command is useful since it can help you find your progress. It helps you find what you modified in the data structure and when.
@@ -43,8 +44,9 @@ In the code block, I found every file that was modified in the past day in the c
 ./some-files.txt
 ```
 In the code block, I found every file that was modified in the past 2 day in the current working directory. You can see the file "some-files.txt" listed since I made it 2 days ago.               
----
-
+                                                                          
+                                                                          ---
+                                                                          
 ## find -maxdepth 3 /path                                     
 I found all the information from this blog [Link](https://www.stackscale.com/blog/find-command-linux/)                  
 This command is useful since it can help you identify the data structure near the path you want. It can be adjusted to show more or less information based on how many levels you want to see.      
@@ -124,8 +126,9 @@ In the code block, I found every file that is in the current directory or 1 leve
 ./some-files.txt
 ```
 In the code block, I found every file that is in the current directory or 1 to 2 levels deeper from the current directory.          
----
-
+                                                
+                                                ---
+                                                
 ## find /path -size +100k                                    
 I found all the information from this blog [Link](https://www.stackscale.com/blog/find-command-linux/)                  
 This command is useful since it can help you identify files based on the size you're looking for.                   

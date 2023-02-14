@@ -1,3 +1,6 @@
+# Lab Report 3
+                 
+**find /path -name filename**                   
 ```
 [cs15lwi23anw@ieng6-201]:~:147$ find /home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2 -name ch1.txt
 /home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch1.txt
@@ -14,7 +17,8 @@
 /home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch2.txt
 /home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Rybczynski/ch2.txt
 ```
-
+                               
+**find /path -mtime 1**                            
 ```
 [cs15lwi23anw@ieng6-201]:~:168$ find -mtime -1
 ./.cache/abrt
@@ -24,8 +28,7 @@
 ```
 
 ```
-[cs15lwi23anw@ieng6-201]:~:171$ find *.txt > some-files.txt
-[cs15lwi23anw@ieng6-201]:~:173$ find -mtime -1
+[cs15lwi23anw@ieng6-201]:~:173$ find -mtime -2
 .
 ./.cache/abrt
 ./.cache/abrt/lastnotification
@@ -33,7 +36,8 @@
 ./.motd
 ./some-files.txt
 ```
-
+                                
+**find -maxdepth 3 /path -name**                                     
 ```
 [cs15lwi23anw@ieng6-201]:~:185$ find -maxdepth 1
 .
@@ -109,7 +113,8 @@
 ./skill-demo1-data/grep-results.txt
 ./some-files.txt
 ```
-
+                                   
+**find /path -size +100k**                                    
 ```
 [cs15lwi23anw@ieng6-201]:~:198$ find -size +300k
 ./skill-demo1-server/.git/objects/pack/pack-cd15105c095bef3eabe7ab46217abba163043e6c.pack

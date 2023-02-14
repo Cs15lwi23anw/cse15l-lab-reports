@@ -4,20 +4,20 @@
 I found all the information from this blog [Link](https://www.stackscale.com/blog/find-command-linux/)                   
 This command is usefull to find things in your data structure.               
 ```
-[cs15lwi23anw@ieng6-201]:~:147$ find /home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2 -name ch1.txt
-/home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch1.txt
-/home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Berk/ch1.txt
-/home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch1.txt
-/home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Kauffman/ch1.txt
-/home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Rybczynski/ch1.txt
+[cs15lwi23anw@ieng6-201]:~:147$ find ./skill-demo1-data/written_2 -name ch1.txt
+./skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch1.txt
+./skill-demo1-data/written_2/non-fiction/OUP/Berk/ch1.txt
+./skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch1.txt
+./skill-demo1-data/written_2/non-fiction/OUP/Kauffman/ch1.txt
+./skill-demo1-data/written_2/non-fiction/OUP/Rybczynski/ch1.txt
 ```
 In the code block, I found every file with the name "ch1.txt" in the directory **written_2**.                 
 ```
-[cs15lwi23anw@ieng6-201]:~:148$ find /home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2 -name ch2.txt
-/home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch2.txt
-/home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Berk/ch2.txt
-/home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch2.txt
-/home/linux/ieng6/cs15lwi23/cs15lwi23anw/skill-demo1-data/written_2/non-fiction/OUP/Rybczynski/ch2.txt
+[cs15lwi23anw@ieng6-201]:~:148$ find ./skill-demo1-data/written_2 -name ch2.txt
+./skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch2.txt
+./skill-demo1-data/written_2/non-fiction/OUP/Berk/ch2.txt
+./skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch2.txt
+./skill-demo1-data/written_2/non-fiction/OUP/Rybczynski/ch2.txt
 ```
 In the code block, I found every file with the name "ch2.txt" in the directory **written_2**.                 
                                          

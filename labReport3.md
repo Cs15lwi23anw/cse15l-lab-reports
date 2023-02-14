@@ -21,7 +21,6 @@ In the code block, I found every file with the name "ch1.txt" in the directory *
 ```
 In the code block, I found every file with the name "ch2.txt" in the directory **written_2**.                 
                                          
-                                         ---
                                          
 ## find /path -mtime 1                            
 I found all the information from this blog [Link](https://www.stackscale.com/blog/find-command-linux/)                  
@@ -45,7 +44,6 @@ In the code block, I found every file that was modified in the past day in the c
 ```
 In the code block, I found every file that was modified in the past 2 day in the current working directory. You can see the file "some-files.txt" listed since I made it 2 days ago.               
                                                                           
-                                                                          ---
                                                                           
 ## find -maxdepth 3 /path                                     
 I found all the information from this blog [Link](https://www.stackscale.com/blog/find-command-linux/)                  
@@ -127,7 +125,6 @@ In the code block, I found every file that is in the current directory or 1 leve
 ```
 In the code block, I found every file that is in the current directory or 1 to 2 levels deeper from the current directory.          
                                                 
-                                                ---
                                                 
 ## find /path -size +100k                                    
 I found all the information from this blog [Link](https://www.stackscale.com/blog/find-command-linux/)                  

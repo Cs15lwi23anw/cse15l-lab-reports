@@ -1,5 +1,6 @@
 ## Step 4: Log into ieng6    
 ![Image](labReport4step4.png)  
+Keys pressed: ssh cs15lwi23anw@ieng6.ucsd.edu then '<enter>'
 ## Step 5: Clone your fork of the repository from your Github account    
 ![Image](labReport4step5.png)  
 ## Step 6: Run the tests, demonstrating that they fail    
